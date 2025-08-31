@@ -1,0 +1,15 @@
+const albumRouter = require('./albumRoutes');
+const artistRouter = require('./artistRoutes');
+const playlistRouter = require('./playlistRoutes');
+const songRouter = require('./songRoutes');
+const userRouter = require('./userRoutes');
+
+const mountRoutes = (app) => {
+  app.use('/api/v1/users', userRouter);
+  app.use('/api/v1/artists', artistRouter);
+  app.use('/api/v1/albums', albumRouter);
+  app.use('/api/v1/songs', songRouter);
+  app.use('/api/v1/playlists', playlistRouter);
+};
+
+module.exports = mountRoutes;
