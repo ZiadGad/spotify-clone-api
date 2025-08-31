@@ -26,7 +26,7 @@
 
 ## Deployed Version
 
-Explore the live API here 👉🏻 :
+Explore the live API here 👉🏻 : https://spotify-clone-api-ivory.vercel.app
 
 ---
 
