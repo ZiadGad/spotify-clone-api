@@ -1,5 +1,5 @@
-<h1 style="text-align: center">Spotify Clone API</h1>
-<p style="text-align: center">
+<h1 align="center">Spotify Clone API</h1>
+<p align="center">
   <img src="https://img.shields.io/badge/Node.js-v20-green.svg" alt="Node.js" />
   <img
     src="https://img.shields.io/badge/Express.js-v5.1.0-blue.svg"
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Jest-Testing-red.svg" alt="Jest" />
 </p>
 
-<h4 style="text-align: center">
+<h4 align="center">
   A full-featured music streaming API built with Node.js and Express,
   replicating core Spotify functionality with robust authentication, file
   management, and comprehensive testing.
