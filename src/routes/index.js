@@ -5,7 +5,7 @@ const songRouter = require('./songRoutes');
 const userRouter = require('./userRoutes');
 
 const mountRoutes = (app) => {
-  app.use('/', (req, res, next) => {
+  app.get('/', (req, res) => {
     res.status(200).send('Welcome to Spotify Clone API 🤗');
   });
   app.use('/api/v1/users', userRouter);
