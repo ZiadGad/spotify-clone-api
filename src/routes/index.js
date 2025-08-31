@@ -6,7 +6,11 @@ const userRouter = require('./userRoutes');
 
 const mountRoutes = (app) => {
   app.get('/', (req, res) => {
-    res.status(200).send('Welcome to Spotify Clone API 🤗');
+    res
+      .status(200)
+      .send(
+        '<h1 style="text-align:center">Welcome to Spotify Clone API 🤗</h1>',
+      );
   });
   app.use('/api/v1/users', userRouter);
   app.use('/api/v1/artists', artistRouter);
